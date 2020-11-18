@@ -15,7 +15,7 @@
 		"postcss": "8.1.7",
 		"postcss-cli": "8.3.0",
 		"svelte": "3.29.7",
-		"tailwindcss": "2.0.0-alpha.23"
+		"tailwindcss": "2.0.1"
 	},
 	"resolutions": {
 		"snowpack": "2.17.0"
