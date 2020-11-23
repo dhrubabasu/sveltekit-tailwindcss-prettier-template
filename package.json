@@ -12,7 +12,7 @@
 		"@sveltejs/snowpack-config": "0.0.5",
 		"autoprefixer": "10.0.2",
 		"cssnano": "4.1.10",
-		"postcss": "8.1.7",
+		"postcss": "8.1.9",
 		"postcss-cli": "8.3.0",
 		"svelte": "3.29.7",
 		"tailwindcss": "2.0.1"
