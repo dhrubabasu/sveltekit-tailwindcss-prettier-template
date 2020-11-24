@@ -1,3 +1,3 @@
-# sveltekit-tailwindcss-template
+# sveltekit-tailwindcss-prettier-template
 
-Simple template that supports tailwindcss in the new @sveltejs/kit workflow.
+Simple template that supports tailwindcss and prettier in the new @sveltejs/kit workflow.

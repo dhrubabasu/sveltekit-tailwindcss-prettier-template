@@ -1,6 +1,6 @@
 module.exports = {
-	purge: [
-		"./src/**/*.html",
-		"./src/**/*.svelte",
-	],
+	purge: {
+		mode: "all",
+		content: ["./src/**/*.{html,svelte}"]
+	},
 };
