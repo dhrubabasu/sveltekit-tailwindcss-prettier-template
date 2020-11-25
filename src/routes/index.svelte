@@ -1,1 +1,1 @@
-<h1 class="font-bold text-lg">Hello world!</h1>
+<h1 class="text-lg font-bold">Hello world!</h1>
