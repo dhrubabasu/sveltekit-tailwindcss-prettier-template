@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+  pull_request:
 
 env:
   node_version: 14
