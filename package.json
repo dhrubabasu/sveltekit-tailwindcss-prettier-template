@@ -2,17 +2,17 @@
 	"name": "~TODO~",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "svelte dev",
-		"build": "svelte build",
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
 		"format": "prettier --write ./**/*.{svelte,js} --ignore-path .gitignore",
 		"cypress": "cypress run",
 		"test": "run-p -r dev cypress"
 	},
 	"devDependencies": {
 		"@snowpack/plugin-postcss": "1.0.7",
-		"@sveltejs/adapter-node": "0.0.15",
-		"@sveltejs/kit": "0.0.26",
-		"@sveltejs/snowpack-config": "0.0.6",
+		"@sveltejs/adapter-node": "0.0.16",
+		"@sveltejs/kit": "0.0.27",
+		"@sveltejs/snowpack-config": "0.0.7",
 		"autoprefixer": "10.0.4",
 		"cssnano": "4.1.10",
 		"cypress": "6.0.0",
@@ -20,7 +20,7 @@
 		"postcss": "8.1.10",
 		"postcss-cli": "8.3.0",
 		"prettier": "2.2.1",
-		"prettier-plugin-tailwind": "2.2.0",
+		"prettier-plugin-tailwind": "2.2.2",
 		"svelte": "3.30.0",
 		"tailwindcss": "2.0.1"
 	},

@@ -213,10 +213,10 @@
     svelte-hmr "^0.11.2"
     svelte-preprocess "^4.5.2"
 
-"@sveltejs/adapter-node@0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-node/-/adapter-node-0.0.15.tgz#ac2079b47051f1f252676b658baca359a07b6797"
-  integrity sha512-E9O/DNQ9HWwDbqO0JznVJC+sKYLt9WPiY4RQmXFFn0KS9+srvfdCik442a3NBP30udyqM3P35mQsb3plwV1C9w==
+"@sveltejs/adapter-node@0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-node/-/adapter-node-0.0.16.tgz#16b9bb582bd7bcf56ddecf3fff67c340fe3b1faf"
+  integrity sha512-JiPEXX+J3BDsy0PqwoNZ/aK6QcNYZsXy5MaJCIJvkJZZUqWZ1OfqP2M8STaJGKRdLRJGU9X65mRzwl8cZFJ/3g==
   dependencies:
     "@sveltejs/app-utils" "0.0.18"
 
@@ -227,10 +227,10 @@
   dependencies:
     mime "^2.4.6"
 
-"@sveltejs/kit@0.0.26":
-  version "0.0.26"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-0.0.26.tgz#14770af84c15141b8a3f4d7989c2618bc483efa4"
-  integrity sha512-W7ttzYX7W2Mhm6t2DFEGNnjEKEtNMagmC1LlsY7nAEOMTIpkU8APuMmkIHVwIlWHVBub0SuLS3RSuW+RmyB6EQ==
+"@sveltejs/kit@0.0.27":
+  version "0.0.27"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-0.0.27.tgz#42628fd2f4805a70e1d826fdd9a78152856a25b1"
+  integrity sha512-PEe3mpM5/WGbDvL3Z49HizMIl+BrA8fm/zWX9g0HIRcV/C/GtU4+hmaZlwAmzVqNxuS49t7ALJIzVyVJibfY5g==
   dependencies:
     "@sveltejs/app-utils" "0.0.18"
     cheap-watch "^1.0.2"
@@ -243,10 +243,10 @@
     scorta "^1.0.0"
     snowpack "^2.17.0"
 
-"@sveltejs/snowpack-config@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@sveltejs/snowpack-config/-/snowpack-config-0.0.6.tgz#9dd30e38025fec81f75d034199d62c3ae6086eac"
-  integrity sha512-RodTvrGN3CEJegG2kaV0k48xxwwIZjJod7VnljHdho76PML+Sd0l7nPh8biJOCnCG1dnSJ5+PMOLVVSqz8Akdg==
+"@sveltejs/snowpack-config@0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@sveltejs/snowpack-config/-/snowpack-config-0.0.7.tgz#a152dc2ab6fbabaeff167b5f96b237676f93f041"
+  integrity sha512-yQmg0jz7anzm0AuOGt4tNp3aM2y/knUJ+L0N8sLep8cb4NlVzfOle9s4lKk5RCSBc22mf6affBKFqJtsFLtC2w==
   dependencies:
     "@snowpack/plugin-svelte" "^3.0.0"
 
@@ -1345,9 +1345,9 @@ es-to-primitive@^1.2.1:
     is-symbol "^1.0.2"
 
 esbuild@^0.8.0:
-  version "0.8.16"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.16.tgz#8ae34b15d938e8b8b5ac2459414fe3e7fd7dd6b2"
-  integrity sha512-HMvPNxDIhEGO/YUh8oO8oxQ1g+ttWz2anUF7NJmQglj2XfJS8zd8mP0Sb2y+jE1SVk3UjD/rYhdsEOFULN9/xw==
+  version "0.8.17"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.17.tgz#1c16c6d5988dcfdcf27a7e1612b7fd05e1477c54"
+  integrity sha512-ReHap+Iyn5BQF0B8F3xrLwu+j57ri5uDUw2ej9XTPAuFDebYiWwRzBY4jhF610bklveXLbCGim/8/2wQKQlu1w==
 
 escalade@^3.1.0, escalade@^3.1.1:
   version "3.1.1"
@@ -3306,14 +3306,14 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.11, postcss@^7.0.18, postcss@^7.0.2
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-prettier-plugin-tailwind@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwind/-/prettier-plugin-tailwind-2.2.0.tgz#d419cf9951b97e9787b6903848ed8ee7dbecb602"
-  integrity sha512-u87DzWjbjgg37uAYeJPf1cIOdo0xEmeGrHX6m9csb16zQx0Oo1hu06pZlSQFiN/9a+hWya6VRSiwNq0goRitYw==
+prettier-plugin-tailwind@2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-tailwind/-/prettier-plugin-tailwind-2.2.2.tgz#14a39abbb6e07fa6bffb5f77b6b7a47060244573"
+  integrity sha512-XYDK3Rd4dxqIIYs2VoJVog4636G6dG9lXKTPJ0EulkTIjGfW4eRl8x2dA+wV7XsLqQOzA3dm29OA8tqtbyRcnQ==
   dependencies:
     prettier "^2.1.2"
     svelte-prettier-plugin "npm:prettier-plugin-svelte"
-    tailwind-classes-sorter "^0.2.2"
+    tailwind-classes-sorter "^0.2.5"
     tailwindcss "^1.8.13"
 
 prettier@2.2.1, prettier@^2.1.2:
@@ -4035,10 +4035,10 @@ symbol-observable@^1.1.0:
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
   integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
 
-tailwind-classes-sorter@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/tailwind-classes-sorter/-/tailwind-classes-sorter-0.2.2.tgz#c7ca8ba64e1090ec2d216b19aaa659dbf86f0834"
-  integrity sha512-8NAZiQO+c6EG6fPUyIl1V+hOOHyPHhhRNb5I0RulIoSVkegjbhhb4edDJ7DHqIP5oYzl7bhj8c3gwGmqu7hRDQ==
+tailwind-classes-sorter@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/tailwind-classes-sorter/-/tailwind-classes-sorter-0.2.5.tgz#fa499fb5564783e5edd77259ce1a3ba9e0c8b3ad"
+  integrity sha512-7S0AaDitt+Fjy9m3v0GrQ/KZrCswNDD25SSXX9U/HIB5h9lk0ImSkq/VVcnzu78cRQxR0fFfvHYFdfcqN3dCGA==
   dependencies:
     find-up "^5.0.0"
 
