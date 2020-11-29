@@ -21,7 +21,7 @@
 		"postcss-cli": "8.3.0",
 		"prettier": "2.2.1",
 		"prettier-plugin-tailwind": "2.2.0",
-		"svelte": "3.30.0",
+		"svelte": "3.29.7",
 		"tailwindcss": "2.0.1"
 	},
 	"resolutions": {
