@@ -4,7 +4,9 @@
 	"scripts": {
 		"dev": "svelte dev",
 		"build": "svelte build",
-		"format": "prettier --write ./**/*.{svelte,js} --ignore-path .gitignore"
+		"format": "prettier --write ./**/*.{svelte,js} --ignore-path .gitignore",
+		"cypress": "cypress run",
+		"test": "run-p -r dev cypress"
 	},
 	"devDependencies": {
 		"@snowpack/plugin-postcss": "1.0.7",
@@ -13,6 +15,8 @@
 		"@sveltejs/snowpack-config": "0.0.6",
 		"autoprefixer": "10.0.4",
 		"cssnano": "4.1.10",
+		"cypress": "6.0.0",
+		"npm-run-all": "4.1.5",
 		"postcss": "8.1.10",
 		"postcss-cli": "8.3.0",
 		"prettier": "2.2.1",
