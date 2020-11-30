@@ -1,1 +1,5 @@
-<h1 class="text-gray-900 font-bold">Hello world!</h1>
+<script>
+import Heading from "$components/Heading.svelte";
+</script>
+
+<Heading />
