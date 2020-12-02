@@ -8,7 +8,6 @@
 		"test": "uvu tests -i setup"
 	},
 	"devDependencies": {
-		"@snowpack/plugin-postcss": "1.0.7",
 		"@sveltejs/adapter-static": "0.0.17",
 		"@sveltejs/kit": "0.0.29",
 		"@sveltejs/snowpack-config": "0.0.7",
@@ -20,15 +19,14 @@
 		"polka": "0.5.2",
 		"postcss": "8.1.10",
 		"postcss-cli": "8.3.0",
+		"postcss-load-config": "^3.0.0",
 		"prettier": "2.2.1",
 		"prettier-plugin-tailwind": "2.2.2",
 		"sirv": "1.0.7",
 		"svelte": "3.30.1",
+		"svelte-preprocess": "4.6.1",
 		"tailwindcss": "2.0.1",
 		"uvu": "0.5.1"
-	},
-	"resolutions": {
-		"snowpack": "2.17.0"
 	},
 	"engines": {
 		"node": ">=14"

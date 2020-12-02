@@ -5,6 +5,5 @@ module.exports = {
     },
     alias: {
         $components: "./src/components"
-    },
-    plugins: ["@snowpack/plugin-postcss"]
+    }
 };

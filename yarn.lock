@@ -155,11 +155,6 @@
     execa "^4.0.3"
     npm-run-path "^4.0.1"
 
-"@snowpack/plugin-postcss@1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-postcss/-/plugin-postcss-1.0.7.tgz#fcfdd58baed7e70224e620d1a38ce9246fba49f8"
-  integrity sha512-vYgMxdyUQIkf+INlO02rlZRAQhJ1ChtbVo9AIrhTBq4Mjyk6/D67pL2nxhWQzZ2x1TYCg72Y/oVJwLCDv+tIkw==
-
 "@snowpack/plugin-run-script@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@snowpack/plugin-run-script/-/plugin-run-script-2.2.0.tgz#26b434af5f23dbe3bc189dcacdca5834113b79bc"
@@ -1567,6 +1562,11 @@ is-obj@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/is-obj/-/is-obj-2.0.0.tgz#473fb05d973705e3fd9620545018ca8e22ef4982"
   integrity sha512-drqDG3cbczxxEJRoOXcOjtdp1J/lyp1mNn0xaznRs8+muBhgQcrnbspox5X5fOw0HnMnbfDzvnEMEtqDEJEo8w==
+
+is-plain-object@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-5.0.0.tgz#4427f50ab3429e9025ea7d52e9043a9ef4159344"
+  integrity sha512-VRSzKkbMm5jMDoKLbltAkFQ5Qr7VDiTFGXxYFXXowVj387GeGNOCsOH6Msy00SGZ3Fp84b1Naa1psqgcCIEP5Q==
 
 is-reference@^1.2.1:
   version "1.2.1"
@@ -2988,10 +2988,10 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-snowpack@2.17.0, snowpack@^2.17.0:
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-2.17.0.tgz#bdcdfc1637e1f9a8bc7696edcf8e122183151b83"
-  integrity sha512-Up8J+pwQANPtvg81M86TU5Qk2rtuNnJiRwWI0qObcsSWVY8+39Uf/FtqQsdG1ecQ9AfhIjtUwpKNYqnJPH/D0w==
+snowpack@^2.17.0:
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-2.17.1.tgz#9f00a4171526df2fa288026b5496d3e544de71ce"
+  integrity sha512-FCeIESACrCQTGTZW6rbSfe1RgOFMBRPk7I5Wn//3IRl+cLBoZ1THWMdthqbv/xiv0qlK3rHoXTBqrakf7LPAZQ==
   dependencies:
     "@snowpack/plugin-build-script" "^2.0.11"
     "@snowpack/plugin-run-script" "^2.2.0"
@@ -3013,6 +3013,7 @@ snowpack@2.17.0, snowpack@^2.17.0:
     glob "^7.1.4"
     http-proxy "^1.18.1"
     httpie "^1.1.2"
+    is-plain-object "^5.0.0"
     isbinaryfile "^4.0.6"
     jsonschema "~1.2.5"
     kleur "^4.1.1"
@@ -3219,7 +3220,7 @@ svelte-hmr@^0.11.2:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.11.6.tgz#67f0498e2cdce9e1039631d820c1951bd01caa3f"
   integrity sha512-XUYcp7W26q/fF8tABZfCYGklwL4TDH48gc1KOjuBQNlTiMW63l/+rRqmfVOE/qKG5vns0J2NPo3zFjdahkwoHA==
 
-svelte-preprocess@^4.5.2:
+svelte-preprocess@4.6.1, svelte-preprocess@^4.5.2:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.6.1.tgz#a7de4d91b32d5608b6637da960ee81e6089ae276"
   integrity sha512-s7KdhR2pOsffyOzZIMEb315f6pfgeDnOWN47m6YKFeSEx3NMf/79Znc3vuG/Ai79SL/vsi86WDrjFPLGRfDesg==
