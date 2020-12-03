@@ -151,24 +151,24 @@
     svelte-hmr "^0.11.2"
     svelte-preprocess "^4.5.2"
 
-"@sveltejs/adapter-static@0.0.17":
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-0.0.17.tgz#2690ec8542a73d97de38d0fdc9aaf32bcff15ae0"
-  integrity sha512-K84tErUpnrvUsvCAmW3tnrgPUPfAyKsFEXvgb0cDA+aq/15TYgrzAHVDUJZs4Zyuv6uDQSO6/NmV9EUGhOiJvw==
+"@sveltejs/adapter-static@1.0.0-next.0":
+  version "1.0.0-next.0"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.0.tgz#558c3339259edd001b82bb8a978846dce53d3b7c"
+  integrity sha512-5QYrPSjfqI/Jd2av/WuwhZjRZHaWu8tGmBHM6dh5W7cd4s0PG3eW0p4eASZESHmtCFWGG00PYMRjUUFPPtEcOg==
 
-"@sveltejs/app-utils@0.0.18":
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/@sveltejs/app-utils/-/app-utils-0.0.18.tgz#a2c829c17584307a9f7fa4e5cce44bb0a2b864d3"
-  integrity sha512-fwHT07xTrY8Zkj3RME2vE6dpqIocuI9qTW1vNGbNP0P+0seaEsIM6l4QRei8IRpz6dykExt+QVPlN57XrJ2Qfw==
+"@sveltejs/app-utils@1.0.0-next.0":
+  version "1.0.0-next.0"
+  resolved "https://registry.yarnpkg.com/@sveltejs/app-utils/-/app-utils-1.0.0-next.0.tgz#da1c857632c32304e82b3fbb224eee642012c922"
+  integrity sha512-4fCuD+aLrq/iFVJWosIv8oi43tv4o7bGZVyNHMBamdIaVTcydRaPjxQCTM8OQPRVftHyrTIIvT3uH03kAxHZ0Q==
   dependencies:
     mime "^2.4.6"
 
-"@sveltejs/kit@0.0.29":
-  version "0.0.29"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-0.0.29.tgz#4340913ea749bf72cab5163b1d46589353d52491"
-  integrity sha512-rxjJ/bqr3V9Mf/DTmtmuyfupArGnainkwFn23K0pz6Iz1qlZNeY2XoPIzKly6wgt4aO1awgJp4Mh2UAqFoFtqA==
+"@sveltejs/kit@1.0.0-next.0":
+  version "1.0.0-next.0"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.0.tgz#ca287e4f42bd8ee3a15b42f830dfc1ec6f8a0967"
+  integrity sha512-JrNmDnEbfDnPvfj6f8oKeP+7HV8U1B/9hP3Xpox4Otrf3wJn2A/gwvOZDYKr8AhGUQl2nPeHNnKsigSe7WgFsA==
   dependencies:
-    "@sveltejs/app-utils" "0.0.18"
+    "@sveltejs/app-utils" "1.0.0-next.0"
     cheap-watch "^1.0.2"
     http-proxy "^1.18.1"
     rollup "^2.32.0"
@@ -179,10 +179,10 @@
     scorta "^1.0.0"
     snowpack "^2.17.0"
 
-"@sveltejs/snowpack-config@0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@sveltejs/snowpack-config/-/snowpack-config-0.0.7.tgz#a152dc2ab6fbabaeff167b5f96b237676f93f041"
-  integrity sha512-yQmg0jz7anzm0AuOGt4tNp3aM2y/knUJ+L0N8sLep8cb4NlVzfOle9s4lKk5RCSBc22mf6affBKFqJtsFLtC2w==
+"@sveltejs/snowpack-config@1.0.0-next.0":
+  version "1.0.0-next.0"
+  resolved "https://registry.yarnpkg.com/@sveltejs/snowpack-config/-/snowpack-config-1.0.0-next.0.tgz#4f016b895c1ba2ff896d416022ce176bbb0938fe"
+  integrity sha512-0G5GPdNIGRmiVWXK/43G4e7RJoiMYUYt85Won9dv/v+OAwlIq1g5Dnrr8bMMohKi/LXQQgySw96GeORWtbMJHg==
   dependencies:
     "@snowpack/plugin-svelte" "^3.0.0"
 
@@ -910,9 +910,9 @@ dot-prop@^5.2.0:
     is-obj "^2.0.0"
 
 electron-to-chromium@^1.3.612:
-  version "1.3.612"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.612.tgz#4a49864b9de694403a69d5a9f439cbceca543e48"
-  integrity sha512-CdrdX1B6mQqxfw+51MPWB5qA6TKWjza9f5voBtUlRfEZEwZiFaxJLrhFI8zHE9SBAuGt4h84rQU6Ho9Bauo1LA==
+  version "1.3.614"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.614.tgz#ff359e8d2249e2ce859a4c2bc34c22bd2e2eb0a2"
+  integrity sha512-JMDl46mg4G+n6q/hAJkwy9eMTj5FJjsE+8f/irAGRMLM4yeRVbMuRrdZrbbGGOrGVcZc4vJPjUpEUWNb/fA6hg==
 
 end-of-stream@^1.1.0:
   version "1.4.4"
@@ -2867,10 +2867,10 @@ svelte-preprocess@4.6.1, svelte-preprocess@^4.5.2:
   resolved "https://registry.yarnpkg.com/prettier-plugin-svelte/-/prettier-plugin-svelte-1.4.1.tgz#2f0f7a149190f476dc9b4ba9da8d482bd196f1e2"
   integrity sha512-6y0m37Xw01GRf/WIHau+Kp3uXj2JB1agtEmNVKb9opMy34A6OMOYhfneVpNIlrghQSw/jIV+t3e5Ngt4up2CMA==
 
-svelte@3.30.1:
-  version "3.30.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.30.1.tgz#9352bf7bc82277353cfaa3a6afc46d3aa3563e0d"
-  integrity sha512-Qs3/5CiDhrtM+t8AaPJz0T99sv/I5pgQP0KnpBPAtMGY+MR4NWUPyOqWqPYhoV0QMNLfmSi/DACUUwwyEraEPA==
+svelte@3.31.0:
+  version "3.31.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.31.0.tgz#13966e5f55b975bc86675469bb2c58dd0e558d97"
+  integrity sha512-r+n8UJkDqoQm1b+3tA3Lh6mHXKpcfOSOuEuIo5gE2W9wQYi64RYX/qE6CZBDDsP/H4M+N426JwY7XGH4xASvGQ==
 
 svgo@^1.0.0:
   version "1.3.2"
