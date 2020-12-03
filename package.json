@@ -4,6 +4,7 @@
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
+		"start": "svelte-kit start",
 		"format": "prettier --write ./**/*.{svelte,js,mjs,html} --ignore-path .gitignore",
 		"test": "uvu tests -i setup"
 	},
