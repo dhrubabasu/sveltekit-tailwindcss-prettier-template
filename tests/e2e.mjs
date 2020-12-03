@@ -6,7 +6,7 @@ import { get } from "httpie";
 const e2e = suite("e2e");
 
 e2e.before.each(ENV.reset);
-e2e.after.each((context) => context.app.server.close());
+e2e.after.each(ENV.exit);
 
 e2e("index page contains expected h1 elem", async (context) => {
     const { statusCode, data } = await get(context.uri + "/");
