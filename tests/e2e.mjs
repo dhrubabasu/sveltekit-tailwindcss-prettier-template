@@ -17,10 +17,10 @@ e2e("index page contains expected h1 elem", async (context) => {
 e2e("index page contains valid css", async (context) => {
     const res = await get(context.uri + "/_app/entry.css");
     assert.is(res.statusCode, 200);
-    assert.ok(/@import \'navigation-[a-z0-9A-Z]{8}.css\';/.test(res.data));
+    assert.ok(/@import \'start-[a-z0-9A-Z]{8}.css\';/.test(res.data));
 
     const { statusCode, data } = await get(
-        context.uri + "/_app/" + res.data.match(/@import \'(navigation-[a-z0-9A-Z]{8}.css)\';/)[1]
+        context.uri + "/_app/" + res.data.match(/@import \'(start-[a-z0-9A-Z]{8}.css)\';/)[1]
     );
     assert.is(statusCode, 200);
     assert.not.ok(data.includes(`@tailwind`), "Postcss did not transform css file");
