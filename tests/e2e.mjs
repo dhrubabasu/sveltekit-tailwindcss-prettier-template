@@ -11,7 +11,7 @@ e2e.after.each(ENV.exit);
 e2e("index page contains expected h1 elem", async (context) => {
     const { statusCode, data } = await get(context.uri + "/");
     assert.is(statusCode, 200);
-    assert.ok(data.includes(`<h1 class="text-gray-900 font-bold">Hello world!</h1>`));
+    assert.ok(data.includes(`<h1 class="font-bold text-gray-900">Hello world!</h1>`));
 });
 
 e2e("index page contains valid css", async (context) => {
