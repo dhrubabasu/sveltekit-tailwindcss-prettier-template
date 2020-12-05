@@ -6,7 +6,7 @@
 		"build": "svelte-kit build",
 		"start": "svelte-kit start",
 		"preformat": "rustywind --write ./src/",
-		"format": "prettier --write './**/*.{svelte,js,mjs,html}' --ignore-path .gitignore",
+		"format": "prettier --write './**/*.{svelte,html,ts,js,mjs}' --ignore-path .gitignore",
 		"pretest": "svelte-check",
 		"test": "uvu tests -i setup"
 	},
