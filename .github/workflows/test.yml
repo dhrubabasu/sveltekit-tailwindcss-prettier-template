@@ -18,9 +18,7 @@ jobs:
           ref: ${{ github.head_ref }}
       - uses: actions/cache@v2
         with:
-          path: |
-            ~/.cache/Cypress
-            **/node_modules
+          path: '**/node_modules'
           key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
       - uses: actions/setup-node@v1
         with:
