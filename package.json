@@ -7,26 +7,35 @@
 		"start": "svelte-kit start",
 		"preformat": "rustywind --write ./src/",
 		"format": "prettier --write './**/*.{svelte,js,mjs,html}' --ignore-path .gitignore",
+		"pretest": "svelte-check",
 		"test": "uvu tests -i setup"
 	},
 	"devDependencies": {
+		"@snowpack/plugin-postcss": "1.0.8",
+		"@snowpack/plugin-typescript": "1.1.1",
 		"@sveltejs/adapter-static": "1.0.0-next.0",
-		"@sveltejs/kit": "1.0.0-next.1",
+		"@sveltejs/kit": "1.0.0-next.0",
 		"@sveltejs/snowpack-config": "1.0.0-next.0",
 		"autoprefixer": "10.0.4",
 		"cssnano": "4.1.10",
 		"httpie": "2.0.0-next.12",
 		"polka": "0.5.2",
 		"postcss": "8.1.14",
+		"postcss-cli": "8.3.0",
 		"postcss-load-config": "3.0.0",
 		"prettier": "2.2.1",
-		"prettier-plugin-svelte": "1.4.1",
+		"prettier-plugin-svelte": "1.4.2",
 		"rustywind": "0.6.7",
-		"sirv": "1.0.7",
+		"sirv": "1.0.9",
 		"svelte": "3.31.0",
-		"svelte-preprocess": "4.6.1",
+		"svelte-check": "1.1.19",
 		"tailwindcss": "2.0.1",
+		"tslib": "2.0.3",
+		"typescript": "4.1.2",
 		"uvu": "0.5.1"
+	},
+	"resolutions": {
+		"snowpack": "2.17.0"
 	},
 	"engines": {
 		"node": ">=14"
