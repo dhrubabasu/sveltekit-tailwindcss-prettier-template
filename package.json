@@ -6,6 +6,7 @@
 		"build": "svelte-kit build",
 		"start": "svelte-kit start",
 		"format": "prettier --write ./**/*.{svelte,js,mjs,html} --ignore-path .gitignore",
+		"pretest": "svelte-check",
 		"test": "uvu tests -i setup"
 	},
 	"devDependencies": {
@@ -25,6 +26,7 @@
 		"prettier-plugin-tailwind": "2.2.6",
 		"sirv": "1.0.7",
 		"svelte": "3.31.0",
+		"svelte-check": "1.1.19",
 		"tailwindcss": "2.0.1",
 		"tslib": "2.0.3",
 		"typescript": "4.1.2",
