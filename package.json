@@ -5,7 +5,7 @@
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
 		"start": "svelte-kit start",
-		"format": "prettier --write ./**/*.{svelte,js,mjs,html} --ignore-path .gitignore",
+		"format": "prettier --write './**/*.{svelte,js,mjs,html}' --ignore-path .gitignore",
 		"test": "uvu tests -i setup"
 	},
 	"devDependencies": {
@@ -19,7 +19,8 @@
 		"postcss": "8.1.14",
 		"postcss-load-config": "3.0.0",
 		"prettier": "2.2.1",
-		"prettier-plugin-tailwind": "2.2.6",
+		"prettier-plugin-svelte": "1.4.1",
+		"prettier-plugin-tailwind-css": "1.4.0",
 		"sirv": "1.0.7",
 		"svelte": "3.31.0",
 		"svelte-preprocess": "4.6.1",
