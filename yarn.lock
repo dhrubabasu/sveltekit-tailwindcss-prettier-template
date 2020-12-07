@@ -2723,10 +2723,10 @@ run-parallel@^1.1.9:
   resolved "https://registry.yarnpkg.com/run-parallel/-/run-parallel-1.1.10.tgz#60a51b2ae836636c81377df16cb107351bcd13ef"
   integrity sha512-zb/1OuZ6flOlH6tQyMPUrE3x3Ulxjlo9WIVXR4yVYi4H9UXQaeIsPbLn2R3O3vQCnDKkAl2qHiuocKKX4Tz/Sw==
 
-rustywind@0.6.7:
-  version "0.6.7"
-  resolved "https://registry.yarnpkg.com/rustywind/-/rustywind-0.6.7.tgz#0577f888af624e794818dcd8d3050b3c904433a7"
-  integrity sha512-lMpCMTKgjUVQndCgVlfMLcsSOoFuJCALN8QDhPXzH+gZoyRemKdm21RwEvgiNxBxyGhHjCBD0PDRNKwhc9TIfw==
+rustywind@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/rustywind/-/rustywind-0.7.0.tgz#79c6ed4b8b742375e967199f07aa0b29c200d7aa"
+  integrity sha512-LXv2pWFTcow2p1fB5OAwdrkbI0BRcj7ghq6N/VD2wahpyc5ZnxcoPyzcAL0fR6Gg2JC61dUtASO5bxxaPvKNpw==
 
 sade@^1.7.3, sade@^1.7.4:
   version "1.7.4"
