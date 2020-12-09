@@ -147,10 +147,10 @@
     execa "^4.0.3"
     npm-run-path "^4.0.1"
 
-"@snowpack/plugin-postcss@1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@snowpack/plugin-postcss/-/plugin-postcss-1.0.8.tgz#86bc9bb24b4c4edb6a634a4a07b6a15a79e7c7ad"
-  integrity sha512-HQyDY/Tuda1J7SnhvfsHEWGNQ71S1b83WIgeDJz+KYvXr1nHP8ScGMNkdGYM/KuzOrJWM5Fu7zO588xAczD+/Q==
+"@snowpack/plugin-postcss@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-postcss/-/plugin-postcss-1.0.10.tgz#69faf481e0a19e73264791cbeae1946b928318d1"
+  integrity sha512-bMnia5khNaKQDNFaE8EcZ2uVpQP+74c5XIVRtbfPedjtA0dI+BgGUBNy/uHLMbdEyq9SsxryB8hDl9LL0gy2Ew==
   dependencies:
     execa "^4.1.0"
 
