@@ -9,12 +9,14 @@ e2e.before.each(ENV.reset);
 e2e.after.each(ENV.exit);
 
 e2e("index page contains expected h1 elem", async (context) => {
+    assert.not.ok(context.error, "build dir not found");
     const { statusCode, data } = await get(context.uri + "/");
     assert.is(statusCode, 200);
     assert.ok(data.includes(`<h1 class="font-bold text-gray-900">Hello world!</h1>`));
 });
 
 e2e("index page contains valid css", async (context) => {
+    assert.not.ok(context.error, "build dir not found");
     const res = await get(context.uri + "/_app/entry.css");
     assert.is(res.statusCode, 200);
     assert.ok(/@import \'start-[a-z0-9A-Z]{8}.css\';/.test(res.data));
