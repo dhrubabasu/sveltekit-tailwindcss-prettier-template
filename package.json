@@ -11,7 +11,7 @@
 		"test": "uvu tests -i setup"
 	},
 	"devDependencies": {
-		"@snowpack/plugin-postcss": "1.0.8",
+		"@snowpack/plugin-postcss": "1.0.10",
 		"@snowpack/plugin-typescript": "1.1.1",
 		"@sveltejs/adapter-static": "1.0.0-next.0",
 		"@sveltejs/kit": "1.0.0-next.0",
