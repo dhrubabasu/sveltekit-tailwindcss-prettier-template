@@ -17,7 +17,7 @@ jobs:
           ref: ${{ github.head_ref }}
       - uses: actions/cache@v2
         with:
-          path: '**/node_modules'
+          path: "**/node_modules"
           key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
       - uses: actions/setup-node@v2.1.2
         with:
@@ -28,6 +28,6 @@ jobs:
       - run: yarn format
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: '[ci] yarn format'
+          commit_message: "[ci] yarn format"
           branch: ${{ github.head_ref }}
           push_options: --force

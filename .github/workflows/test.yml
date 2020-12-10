@@ -18,7 +18,7 @@ jobs:
           ref: ${{ github.head_ref }}
       - uses: actions/cache@v2
         with:
-          path: '**/node_modules'
+          path: "**/node_modules"
           key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
       - uses: actions/setup-node@v2.1.2
         with:
