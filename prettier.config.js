@@ -4,9 +4,8 @@ module.exports = {
     svelteBracketNewLine: true,
     svelteAllowShorthand: false,
     svelteIndentScriptAndStyle: false,
-    trailingComma: "none",
-    tabWidth: 4,
-    printWidth: 125,
-    semi: true,
-    singleQuote: false
+    trailingComma: "all",
+    printWidth: 100,
+    singleQuote: false,
+    bracketSpacing: false
 };
