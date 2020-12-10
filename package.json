@@ -7,7 +7,7 @@
 		"adapt": "svelte-kit adapt",
 		"start": "svelte-kit start",
 		"preformat": "rustywind --write ./src/",
-		"format": "prettier --write '**/*.{svelte,html,ts,js,mjs,md}' '.github/**/*.yml' --ignore-path .gitignore",
+		"format": "prettier --write '**/*.{svelte,html,ts,js,mjs,md}' .github/**/*.yml --ignore-path .gitignore",
 		"pretest": "svelte-check",
 		"test": "uvu tests -i setup"
 	},
