@@ -1,6 +1,5 @@
 {
-	"name": "~TODO~",
-	"version": "0.0.1",
+	"private": true,
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
@@ -14,7 +13,7 @@
 	"devDependencies": {
 		"@snowpack/plugin-postcss": "1.0.11",
 		"@snowpack/plugin-typescript": "1.1.1",
-		"@sveltejs/adapter-static": "1.0.0-next.0",
+		"@sveltejs/adapter-static": "1.0.0-next.1",
 		"@sveltejs/kit": "1.0.0-next.5",
 		"@sveltejs/snowpack-config": "1.0.0-next.0",
 		"autoprefixer": "10.1.0",
