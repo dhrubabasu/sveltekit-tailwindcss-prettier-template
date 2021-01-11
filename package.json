@@ -26,7 +26,7 @@
 		"prettier-plugin-svelte": "1.4.2",
 		"rustywind": "0.7.0",
 		"sirv": "1.0.10",
-		"svelte": "3.31.0",
+		"svelte": "3.31.2",
 		"svelte-check": "1.1.22",
 		"tailwindcss": "2.0.2",
 		"tslib": "2.0.3",
