@@ -1,4 +1,5 @@
 module.exports = {
-  preprocess: require("svelte-preprocess")(),
-  adapter: "@sveltejs/adapter-static",
+  kit: {
+    adapter: "@sveltejs/adapter-static",
+  },
 };
