@@ -87,10 +87,10 @@
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.1.tgz#893772052d91fda66f9520dfaa4f271d4d359ba9"
   integrity sha512-rjqlDEO6r2gjGThmx80ry1v7/ctApJbsst1ET5OUBpgf/Cz42DZAbAQs6j1LIljaSMwYN6r5JA1y2rOVCixiOg==
 
-"@sveltejs/kit@1.0.0-next.24":
-  version "1.0.0-next.24"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.24.tgz#bba609eee505f57c67cc1fad3bce2991ea345eb4"
-  integrity sha512-aQWFEzfeVK68bT0kGhzGJkmj4ZsO2MfRK9LN9QHelNaP1claRbKy3R/mvGRuW2GZ3bt0dMTsQliIgzstEczAYA==
+"@sveltejs/kit@1.0.0-next.25":
+  version "1.0.0-next.25"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.25.tgz#7edd59c8c16b32d2671778612a15ac6ac3651a9d"
+  integrity sha512-qSP7bBB7pR8/+Rhmiv5ojo+zBnlHiB3/Dsmkbje6Xm31sO7WythJEug9vJSfy71S0W8Ie57ZS09lc0ThDg1tRg==
   dependencies:
     cheap-watch "^1.0.2"
     http-proxy "^1.18.1"
