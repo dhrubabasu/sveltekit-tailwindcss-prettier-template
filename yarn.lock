@@ -982,10 +982,10 @@ http-proxy@^1.18.1:
     follow-redirects "^1.0.0"
     requires-port "^1.0.0"
 
-httpie@2.0.0-next.12:
-  version "2.0.0-next.12"
-  resolved "https://registry.yarnpkg.com/httpie/-/httpie-2.0.0-next.12.tgz#88189da7b3a9db8197030e57cbc1dbf98311783f"
-  integrity sha512-+VGqve3xizP048bl4d/bc5pWqJw6bUqZF2MRincdjLCdMcpKZZ2v7kEq+x+gEvd1mUdv+zxRPnlShgq8BXJVJw==
+httpie@2.0.0-next.13:
+  version "2.0.0-next.13"
+  resolved "https://registry.yarnpkg.com/httpie/-/httpie-2.0.0-next.13.tgz#1e245be61d6ca2573a2c1d690cfa5ec3bac63a0c"
+  integrity sha512-KbKOnq8wt0hVEfteYCSnEsPgzaWxcVc4qZ4OaDU9mVOYLRo3XChjWs3MiuRgFu5y+4JDo7sDKdKzkAn1ljQYFA==
 
 human-signals@^2.1.0:
   version "2.1.0"
