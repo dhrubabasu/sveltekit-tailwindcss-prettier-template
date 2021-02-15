@@ -82,10 +82,10 @@
     svelte-hmr "^0.12.1"
     svelte-preprocess "^4.6.0"
 
-"@sveltejs/adapter-static@1.0.0-next.1":
-  version "1.0.0-next.1"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.1.tgz#893772052d91fda66f9520dfaa4f271d4d359ba9"
-  integrity sha512-rjqlDEO6r2gjGThmx80ry1v7/ctApJbsst1ET5OUBpgf/Cz42DZAbAQs6j1LIljaSMwYN6r5JA1y2rOVCixiOg==
+"@sveltejs/adapter-static@1.0.0-next.2":
+  version "1.0.0-next.2"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.2.tgz#91555a7141403b509a8528c3122172e637815da1"
+  integrity sha512-05MdCVpI8vJgEk4f0uNg5Xd3pjd/DZ83jl8UQ6fOmE9Fwou3RNspJJuueWeDUHmbY7tlqxI2ge3yMMqO5/KdUg==
 
 "@sveltejs/kit@1.0.0-next.31":
   version "1.0.0-next.31"
