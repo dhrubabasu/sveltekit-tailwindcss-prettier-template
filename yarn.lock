@@ -102,10 +102,10 @@
     snowpack "^3.0.11"
     source-map "^0.7.3"
 
-"@sveltejs/snowpack-config@1.0.0-next.2":
-  version "1.0.0-next.2"
-  resolved "https://registry.yarnpkg.com/@sveltejs/snowpack-config/-/snowpack-config-1.0.0-next.2.tgz#d3bb860542c5039da02fda088c69ff63daf57e02"
-  integrity sha512-SasvBNHtJlkLLAyaq6pRh7US9K7RncQQSa1bffKIozDAEu395cZM/Kpc5QEA0CN5l6KLQNoxICjZ5XHtwwihuA==
+"@sveltejs/snowpack-config@1.0.0-next.3":
+  version "1.0.0-next.3"
+  resolved "https://registry.yarnpkg.com/@sveltejs/snowpack-config/-/snowpack-config-1.0.0-next.3.tgz#201cc2ac03a31f1fe65336193de7b751ec4190aa"
+  integrity sha512-ML2rZTkZG1iV0qKk1H2rwt1Th2ifhD2wxQs4DTYOb61xQY57Y41tKfo0Lzf4IYjRKd4CgbvLsXwSw4NkftDl3A==
   dependencies:
     "@snowpack/plugin-svelte" "^3.5.2"
 
