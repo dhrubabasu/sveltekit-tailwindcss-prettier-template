@@ -27,5 +27,4 @@ jobs:
         env:
           CI: true
       - run: yarn build
-      - run: yarn adapt
       - run: yarn test
