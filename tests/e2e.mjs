@@ -31,7 +31,7 @@ describe("e2e", (it) => {
       .filter((link) => link.getAttribute("href").split(".").pop() == "css")[0];
     assert.ok(element);
 
-    const {statusCode, data} = await get(context.uri + element.getAttribute("href"));
+    const {statusCode, data} = await get(context.uri + element.getAttribute("href").slice(2));
     assert.is(statusCode, 200);
     assert.not.ok(data.includes(`@tailwind`), "Postcss did not transform css file");
     assert.ok(
