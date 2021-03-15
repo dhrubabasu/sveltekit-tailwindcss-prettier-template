@@ -79,33 +79,19 @@
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.2.tgz#91555a7141403b509a8528c3122172e637815da1"
   integrity sha512-05MdCVpI8vJgEk4f0uNg5Xd3pjd/DZ83jl8UQ6fOmE9Fwou3RNspJJuueWeDUHmbY7tlqxI2ge3yMMqO5/KdUg==
 
-"@sveltejs/kit@1.0.0-next.40":
-  version "1.0.0-next.40"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.40.tgz#a7415b2cf7ac6765447326fb6a71e589ab5b7700"
-  integrity sha512-tZNqT3o1/EgmAoVPRPTySO8iEIMpenRYgcaUu6aYt//wgtTQWfcMC+VNVtNZeFA5rLiu48hginCM+AOmKa65LA==
+"@sveltejs/kit@1.0.0-next.48":
+  version "1.0.0-next.48"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.48.tgz#040fe01b98ff6255ab7e34e9aef0e1cc9709cc0d"
+  integrity sha512-UFMc19MMGWTQQEWPzT3Fl7rr2eXr1DVVvFRvmYS1c/dPFVJABKqo9DU33590FfPLy72K+he1nmhrY+zoTNZWfQ==
   dependencies:
-    "@sveltejs/vite-plugin-svelte" "1.0.0-next.2"
-    "@svitejs/vite-plugin-svelte" "^0.10.0-0"
+    "@svitejs/vite-plugin-svelte" "^0.11.0"
     cheap-watch "^1.0.3"
     sade "^1.7.4"
 
-"@sveltejs/vite-plugin-svelte@1.0.0-next.2":
-  version "1.0.0-next.2"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.2.tgz#a45a7b3194aa7cbe1e2e19cb2bf58a7b33e85243"
-  integrity sha512-2MFgwQybGhhCqgByloC2qTTwwnomnsfGQhapETyfB4w4s5Ylz0bUqgfMvq9deRMTD9zwtL/DWfrK7d+0DNYILg==
-  dependencies:
-    "@rollup/pluginutils" "^4.1.0"
-    chalk "^4.1.0"
-    hash-sum "^2.0.0"
-    require-relative "^0.8.7"
-    slash "^3.0.0"
-    source-map "^0.7.3"
-    svelte-hmr "^0.12.6"
-
-"@svitejs/vite-plugin-svelte@^0.10.0-0":
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/@svitejs/vite-plugin-svelte/-/vite-plugin-svelte-0.10.0.tgz#c4ccc09472c257aadfa11d58179256f36e1091ac"
-  integrity sha512-gttcMIZvLwanYbkfkl77o8mkPKxnYGoqz0xOfz4ZPrzJdan+DzH9b2PEQbpWb53klFKANB7FPBDr7bCaixIT5Q==
+"@svitejs/vite-plugin-svelte@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@svitejs/vite-plugin-svelte/-/vite-plugin-svelte-0.11.0.tgz#7d87f3795ca96c5f9de4c1fa2a77cfe492b0a37a"
+  integrity sha512-Zeha2eeFHUyHvyd1pqK+e5NfTeZ9zwgYSGd4fOMK/GN9iTKNhGighxWAibafE/Bh2V1JC3JEvqc+nxK+PyQE2Q==
   dependencies:
     "@rollup/pluginutils" "^4.1.0"
     chalk "^4.1.0"
@@ -2072,11 +2058,6 @@ supports-color@^7.1.0:
   integrity sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
   dependencies:
     has-flag "^4.0.0"
-
-svelte-hmr@^0.12.6:
-  version "0.12.9"
-  resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.12.9.tgz#e323b71062a59bf4b73d2d5a7cc80dba256217e1"
-  integrity sha512-SGE7Odznj4dqZtUVIWcoPCvZ9gHImxVIIjrz+O3DDSi0j4OaSLim6MRF4UdhlBKeW3glSRc+tXNSKYvM5x+Dyw==
 
 svelte-hmr@^0.13.0-2:
   version "0.13.0-2"
