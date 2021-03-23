@@ -26,7 +26,7 @@
 		"svelte": "3.35.0",
 		"tailwindcss": "2.0.4",
 		"uvu": "0.5.1",
-		"vite": "2.0.5"
+		"vite": "2.1.2"
 	},
 	"engines": {
 		"node": ">=14"
