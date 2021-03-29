@@ -1939,10 +1939,10 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rustywind@0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/rustywind/-/rustywind-0.8.0.tgz#ff690e882d0e4f9bfe85b77bf886acfc04939adc"
-  integrity sha512-DRa2AE8WODMUTZZ61/bEuXyPWuJ1mXWVM5jTzd9y8xFQAizJ1HCDkFpUdM3M5LKzr0DIfv1vq6I5DLeGtdRG5Q==
+rustywind@0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/rustywind/-/rustywind-0.8.1.tgz#1084f7408c962a44bf90ea6dca897e10ccbd2977"
+  integrity sha512-oauFGMxPO4sxDMdNfXzLTrBEBbd74PHoIy5T92VWZwFaSCHw4GAunxAy2XzPUOmHTomuEdvXdHaU7dZhYXCvaQ==
 
 sade@^1.7.3, sade@^1.7.4:
   version "1.7.4"
