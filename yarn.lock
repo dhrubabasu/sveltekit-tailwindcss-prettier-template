@@ -79,28 +79,28 @@
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-static/-/adapter-static-1.0.0-next.4.tgz#5305a2fedf9d1ec40af6c25384b7542a0337ec4c"
   integrity sha512-Atri/5jyiVmAklqDKb/5czmLkHos6LQOag61k/C6qWozMb8UopvL3bTm62hFQXGKvGnuSRq2xIueDOKWHM/7rA==
 
-"@sveltejs/kit@1.0.0-next.48":
-  version "1.0.0-next.48"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.48.tgz#040fe01b98ff6255ab7e34e9aef0e1cc9709cc0d"
-  integrity sha512-UFMc19MMGWTQQEWPzT3Fl7rr2eXr1DVVvFRvmYS1c/dPFVJABKqo9DU33590FfPLy72K+he1nmhrY+zoTNZWfQ==
+"@sveltejs/kit@1.0.0-next.90":
+  version "1.0.0-next.90"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.90.tgz#4e8475672189c197c7452a5c21b442eb6f4c0340"
+  integrity sha512-aiK4K4hRIZrMVbE+J8+taMNYmK3TonVsi2kHclfXJMQremKFR811rm6vgQUQoJtmwFRFJPOoNmuZVluJr/qDJg==
   dependencies:
-    "@svitejs/vite-plugin-svelte" "^0.11.0"
+    "@sveltejs/vite-plugin-svelte" "^1.0.0-next.7"
     cheap-watch "^1.0.3"
     sade "^1.7.4"
 
-"@svitejs/vite-plugin-svelte@^0.11.0":
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/@svitejs/vite-plugin-svelte/-/vite-plugin-svelte-0.11.0.tgz#7d87f3795ca96c5f9de4c1fa2a77cfe492b0a37a"
-  integrity sha512-Zeha2eeFHUyHvyd1pqK+e5NfTeZ9zwgYSGd4fOMK/GN9iTKNhGighxWAibafE/Bh2V1JC3JEvqc+nxK+PyQE2Q==
+"@sveltejs/vite-plugin-svelte@^1.0.0-next.7":
+  version "1.0.0-next.9"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.9.tgz#409e20c030298e968c71d71bef141665c06e7bd9"
+  integrity sha512-ySB/GJsZV3h3jqjq5WIiaxVFkJK6vqtG9gS7Iw6SfUH9ZiFNw5JjQF69g68j9cNep3q4yRIYiG5/pI3YIdXEuA==
   dependencies:
     "@rollup/pluginutils" "^4.1.0"
-    chalk "^4.1.0"
-    debug "^4.3.1"
+    chalk "^4.1.1"
+    debug "^4.3.2"
     hash-sum "^2.0.0"
     require-relative "^0.8.7"
-    slash "^3.0.0"
+    slash "^4.0.0"
     source-map "^0.7.3"
-    svelte-hmr "^0.13.0-2"
+    svelte-hmr "^0.14.2"
 
 "@trysound/sax@0.1.1":
   version "0.1.1"
@@ -269,6 +269,14 @@ chalk@^4.0.0, chalk@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
   integrity sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
+chalk@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
+  integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
@@ -480,10 +488,10 @@ csso@^4.2.0:
   dependencies:
     css-tree "^1.1.2"
 
-debug@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
-  integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
+debug@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
+  integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
   dependencies:
     ms "2.1.2"
 
@@ -1640,6 +1648,11 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
+slash@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/slash/-/slash-4.0.0.tgz#2422372176c4c6c5addb5e2ada885af984b396a7"
+  integrity sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==
+
 source-map@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
@@ -1693,10 +1706,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte-hmr@^0.13.0-2:
-  version "0.13.0-2"
-  resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.13.0-2.tgz#12a28df6754a22e8e40aec848a62c6388ae5920e"
-  integrity sha512-3Sqxbs5hG212oweKhHzh2S7jVScylzbVXuEkydgdS9NpvcdnyCSufpaJSUNxUGc02wgjWugtqaJXs1DybAjRpw==
+svelte-hmr@^0.14.2:
+  version "0.14.3"
+  resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.3.tgz#b6a6781bc923352e3c257ccd7d87d01821ea2d95"
+  integrity sha512-N56xX405zLMw2tpGHKRx5h+kmdeZwxI21pvyC6OyBHJDCF6DlwWBm9TifdQmSD4dloWSmpDPzHWYa3CSjfopUg==
 
 svelte@3.37.0:
   version "3.37.0"
