@@ -1,11 +1,16 @@
-const dev = process.env.NODE_ENV === "development";
+const tailwindcss = require("tailwindcss");
+const autoprefixer = require("autoprefixer");
+const cssnano = require("cssnano");
+
+const mode = process.env.NODE_ENV;
+const dev = mode === "development";
 
 module.exports = {
   plugins: [
-    require("tailwindcss"),
-    require("autoprefixer"),
+    tailwindcss,
+    autoprefixer,
     !dev &&
-      require("cssnano")({
+      cssnano({
         preset: "default",
       }),
   ],
