@@ -1,4 +1,4 @@
-name: Test Code
+name: CI
 
 on:
   push:
@@ -10,17 +10,28 @@ env:
   node_version: 14
 
 jobs:
-  test:
+  Lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          ref: ${{ github.head_ref }}
-      - uses: actions/cache@v2.1.5
+      - uses: actions/cache@v2
         with:
           path: "**/node_modules"
           key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
-      - uses: actions/setup-node@v2.1.5
+      - uses: actions/setup-node@v2
+        with:
+          node-version: ${{ env.node_version }}
+      - run: yarn install --frozen-lockfile
+      - run: yarn run lint
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: "**/node_modules"
+          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
+      - uses: actions/setup-node@v2
         with:
           node-version: ${{ env.node_version }}
       - run: yarn --frozen-lockfile

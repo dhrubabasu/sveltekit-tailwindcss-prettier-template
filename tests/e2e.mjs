@@ -28,7 +28,7 @@ describe("e2e", (it) => {
 
     const element = parse(res.data)
       .querySelectorAll("link")
-      .filter((link) => link.getAttribute("href").split(".").pop() == "css")[0];
+      .filter((link) => link.getAttribute("href").split(".").pop() == "css")[1];
     assert.ok(element);
 
     const {statusCode, data} = await get(context.uri + element.getAttribute("href").slice(2));
