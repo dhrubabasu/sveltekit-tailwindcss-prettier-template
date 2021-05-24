@@ -11,7 +11,7 @@
     "test": "uvu tests -i setup"
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "1.0.0-next.9",
+    "@sveltejs/adapter-static": "1.0.0-next.10",
     "@sveltejs/kit": "1.0.0-next.107",
     "autoprefixer": "10.2.5",
     "cssnano": "5.0.2",
