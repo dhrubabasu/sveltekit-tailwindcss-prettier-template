@@ -14,7 +14,7 @@
     "@sveltejs/adapter-static": "1.0.0-next.9",
     "@sveltejs/kit": "1.0.0-next.107",
     "autoprefixer": "10.2.5",
-    "cssnano": "5.0.2",
+    "cssnano": "5.0.4",
     "httpie": "2.0.0-next.13",
     "node-html-parser": "3.3.0",
     "polka": "0.5.2",
