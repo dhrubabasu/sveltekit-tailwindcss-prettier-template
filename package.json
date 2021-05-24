@@ -18,7 +18,7 @@
     "httpie": "2.0.0-next.13",
     "node-html-parser": "3.3.0",
     "polka": "0.5.2",
-    "postcss": "8.2.15",
+    "postcss": "8.3.0",
     "postcss-cli": "8.3.1",
     "prettier": "2.3.0",
     "prettier-plugin-svelte": "2.3.0",
